@@ -1,0 +1,91 @@
+p {
+  color: white;
+
+  padding: 0px 25px;
+}
+
+.wrapper1,
+.wrapper2,
+.wrapper3 {
+  background-color: #666666;
+  max-width: 980px;
+  display: flex;
+  font-size: 16px;
+  flex-wrap: wrap;
+
+  align-content: center;
+}
+
+.blog,
+.logo,
+.phone,
+.menu,
+.slideshow,
+.textcontent,
+.sidebar,
+.footer {
+  background-color: #aaaaaa;
+}
+/*div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px;
+  align-content: center;
+}*/
+.blog {
+  height: 50px;
+  width: 58em;
+  margin: 8px 4px;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+  margin: 8px 4px;
+}
+.phone {
+  width: 75px;
+  height: 25px;
+  align-self: flex-end;
+  position: relative;
+  padding: 8px 6px;
+  margin: 8px 4px;
+}
+.menu {
+  height: 25px;
+  width: 150px;
+  margin: 8px 4px;
+  align-self: flex-end;
+  margin-right: 260px;
+  padding: 8px 0px;
+}
+.slideshow {
+  height: 200px;
+  width: 32em;
+  position: relative;
+  margin: 5px 5px;
+
+  align-self: flex-start;
+}
+.textcontent {
+  height: 300px;
+  width: 32em;
+  position: relative;
+  margin: 5px 5px;
+}
+.sidebar {
+  height: 600px;
+  width: 14em;
+  position: relative;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+.footer {
+  height: 300px;
+  width: 54.5em;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 980px) and (min-width: 360px) {
+  div {
+    flex: 50%;
+  }
+}

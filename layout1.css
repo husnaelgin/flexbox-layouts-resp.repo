@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  color: white;
+  padding: 0px 55px;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px;
+  align-content: center;
+  /*padding: 0px 62px;*/
+}
+.wrapper {
+  background-color: #666666;
+  max-width: 980px;
+  font-size: 20px;
+  justify-content: space-around;
+}
+.logo {
+  width: 275px;
+  background-color: #aaaaaa;
+  font-size: 1em;
+  height: 50px;
+}
+.menu {
+  width: 550px;
+  background-color: #aaaaaa;
+  font-size: 1em;
+  height: 50px;
+}
+
+.slideshow {
+  height: 300px;
+  width: 45em;
+  background-color: #aaaaaa;
+}
+.feat1 {
+  height: 250px;
+  width: 12em;
+  background-color: #aaaaaa;
+}
+.feat2 {
+  height: 250px;
+  background-color: #aaaaaa;
+  width: 12em;
+}
+
+.feat3 {
+  height: 250px;
+  background-color: #aaaaaa;
+  width: 12em;
+}
+
+.sidebar {
+  height: 400px;
+  width: 13.96em;
+  background-color: #aaaaaa;
+}
+.textcontent {
+  height: 400px;
+  width: 26.98em;
+  background-color: #aaaaaa;
+}
+.footer {
+  height: 200px;
+  width: 45em;
+  background-color: #aaaaaa;
+}
+@media only screen and (max-width: 980px) and (max-width: 320px) {
+  div {
+    flex: 50%;
+  }
+}
